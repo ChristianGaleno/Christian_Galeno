@@ -1,0 +1,11 @@
+/* Loaded only when JavaScript is disabled.
+   Reveal-on-scroll elements start at opacity:0 and are un-hidden by main.js,
+   so without JS the whole page would render blank. */
+.reveal {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.cursor-glow {
+  display: none;
+}
